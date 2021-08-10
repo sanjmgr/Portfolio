@@ -98,15 +98,20 @@
             <br />
             <p>
               I have received my bachelor in computer engineering from IOE,
-              Pulchowk Campus, Lalitpur, Nepal.
+              Pulchowk Campus, Lalitpur, Nepal (2014 - 2018).
 
               <br /><br />
-              Self-motivated and passionate about computer science with +2 years
-              of experience as a Software Engineer and Data Visualization
-              Engineer. Besides work, I would love to hang out with family and
-              friends, to watch anime.
+              Self-motivated and passionate about computer science with 2 yrs 8
+              mos of experience as a Software Engineer & Data Visualization
+              Engineer at ZakipointHealth Inc. I am into Data Science &
+              Analytics, Health Care Information Technology, and Data
+              Visualization. Besides work, I love to hang out with family and
+              friends, watch anime.
             </p>
-            <a id="resume" href="https://bit.ly/3bQxPQb" target="_blank"
+            <a
+              id="resume"
+              href="https://drive.google.com/file/d/1F6dpavxqZAXkCXsedKWMa_EVfTwj-VaV/view?usp=sharing"
+              target="_blank"
               ><img src="./images/download.png" alt="" /> Resume</a
             >
           </div>
@@ -128,7 +133,7 @@
               />
               <a
                 id="overlay"
-                href="https://sanjaymagar.github.io/natours-sass/"
+                href="https://sanjmgr.github.io/natours-sass/"
                 target="_blank"
                 >Live Demo</a
               >
@@ -144,7 +149,22 @@
               />
               <a
                 id="overlay"
-                href="https://sanjaymagar.github.io/netflix-nepal-landing-page/"
+                href="https://sanjmgr.github.io/netflix-nepal-landing-page/"
+                target="_blank"
+                >Live Demo</a
+              >
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card" style="width: 18rem">
+              <img
+                class="card-img-top"
+                src="./images/works/bikewise.png"
+                alt="bikewise"
+              />
+              <a
+                id="overlay"
+                href="https://bikewise.netlify.app/"
                 target="_blank"
                 >Live Demo</a
               >
@@ -159,22 +179,7 @@
               />
               <a
                 id="overlay"
-                href="https://sanjaymagar.github.io/rtk/"
-                target="_blank"
-                >Live Demo</a
-              >
-            </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="card" style="width: 18rem">
-              <img
-                class="card-img-top"
-                src="./images/works/devconnector.png"
-                alt="devconnector"
-              />
-              <a
-                id="overlay"
-                href="https://luddite.herokuapp.com/"
+                href="https://sanjmgr.github.io/rtk/"
                 target="_blank"
                 >Live Demo</a
               >
@@ -194,35 +199,43 @@
         <div class="col-sm-3">
           <div class="skillInfo">
             <img src="./images/global.png" alt="" />
+            <h3>Web Development</hh3>
+            <ul style="display: grid;">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>SASS</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="skillInfo">
+            <img src="./images/global.png" alt="" />
             <h3>Languages</h3>
-            <ul>
-              <li><img src="./images/html5.png" alt="" /> HTML</li>
-              <li><img src="./images/css.png" alt="" /> CSS/SCSS</li>
-              <li><img src="./images/javascript.png" alt="" /> JavaScript</li>
-              <li><img src="./images/python.png" alt="" /> Python</li>
+            <ul style="display: grid;">
+              <li>Python</li>
+              <li>JavaScript/TypeScript</li>
+              <li>Java</li>
             </ul>
           </div>
         </div>
         <div class="col-sm-3">
           <img src="./images/coding.png" alt="" />
           <h3>Frameworks</h3>
-          <ul>
-            <li><img src="./images/icons8-vue-js-48.png" alt="" /> Vue.js</li>
-            <li><img src="./images/react.svg" alt="" /> React.js</li>
-            <li><img src="./images/react.svg" alt="" /> React Native</li>
-            <li><img src="./images/nodejs.png" alt="" /> Node.js</li>
-            <li><img src="./images/d3js-icon.png" alt="" /> D3.js</li>
-            <li><img src="./images/django.png" alt="" /> Django</li>
-            <li>
-              <img src="./images/spring-framework.png" alt="" /> Spring Boot
-            </li>
+          <ul style="display: grid;">
+            <li>Django</li>
+            <li>React.js</li>
+            <li>React Native</li>
+            <li>Vue.js</li>
+            <li>Node.js</li>
+            <li>D3.js</li>
+            <li>Grails</li>
           </ul>
         </div>
       </div>
     </div>
 
     <div class="footer">
-      <div>sanjaylafamagar4@gmail.com</div>
+      <div>sanjmgr05@gmail.com</div>
     </div>
 
     <!-- jQuery library -->
@@ -236,15 +249,15 @@
 
     <script>
       $(function () {
-        $('#myWorks .col-sm-4').slice(0, 3).show();
+        $('#myWorks .col-sm-4').slice(0, 3).show()
         $('#loadMore').on('click', function (e) {
-          e.preventDefault();
-          $('.col-sm-4:hidden').slice(0, 9).slideDown();
+          e.preventDefault()
+          $('.col-sm-4:hidden').slice(0, 9).slideDown()
           if ($('.col-sm-4:hidden').length == 0) {
-            $('#loadMore').fadeOut('slow');
+            $('#loadMore').fadeOut('slow')
           }
-        });
-      });
+        })
+      })
     </script>
     <script src="./js/script.js"></script>
   </body>
